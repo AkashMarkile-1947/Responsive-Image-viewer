@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Responsive Grid Gallery-->
+    <div class="container">
+    <div class="header">
+        <h1 class="heading">Responsive Image Grid</h1>
+        <p>Resize the browser window to see the responsive effect.
+        <br>Click on image to view in full size and use &times; to close.</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img loading="lazy" src="images/landscape/amy-humphries-2M_sDJ_agvs-unsplash-min.jpg" class="image" alt="Amy Humphries">
+            <img loading="lazy" src="images/potrait/claudio-poggio-3JUkQM9DN3E-unsplash-min.jpg" class="image" alt="Claudio Poggio">
+            <img loading="lazy" src="images/landscape/andres-montenegro-9PkuFqJLY84-unsplash.jpg" class="image" alt="Andres Montenegro">
+            <img loading="lazy" src="images/potrait/fabian-keller-2Bust437YkE-unsplash-min.jpg" class="image" alt="Fabin Keller">
+            <!--<img loading="lazy" src="images/landscape/aniruddha-kolekar-m5eI1DUq-vE-unsplash.jpg" class="image" alt="Annirudha">
+            <img loading="lazy" src="images/potrait/hasan-almasi-5ddKJB6fgTQ-unsplash.jpg" class="image" alt="Hasan Almasi">-->
+        </div>
+        <div class="column">
+            <img loading="lazy" src="images/potrait/leandra-rieger-FYqT4I5rzm8-unsplash-min.jpg" class="image" alt="landera-rieger">
+            <img loading="lazy" src="images/landscape/brady-stoeltzing-fgjtwWXg13o-unsplash-min.jpg" class="image" alt="Brady Stoelzing">
+            <img loading="lazy" src="images/potrait/ibrahim-fareed-kbbhzhRGuQM-unsplash.jpg" class="image" alt="Ibrahim Fareed">
+            <img loading="lazy" src="images/landscape/gustavo-zambelli-lQKNDz_5kVs-unsplash.jpg"  class="image" alt="Gustavo Zambelli">
+            <!--<img loading="lazy" src="images/potrait/maxim-hopman-OwQecPhesNI-unsplash-min.jpg" class="image" alt="Maxim Hopman">
+            <img loading="lazy" src="images/landscape/ken-cheung-pRPxJBivLqM-unsplash-min.jpg" class="image" alt="Ken Cheung">-->
+        </div>
+        <div class="column">
+            <img loading="lazy" src="images/landscape/mathew-schwartz-thojile77aI-unsplash.jpg" class="image" alt="Mathew Schwartz">
+            <img loading="lazy" src="images/potrait/michael-shannon-ZvdDmDZSv7s-unsplash-min.jpg" class="image" alt="Michel Shanon">
+            <img loading="lazy" src="images/landscape/mehdi-bvgBSDgJnE4-unsplash-min.jpg" class="image" alt="Mehdi">
+            <img loading="lazy" src="images/potrait/tegar-surya-z7Wv-_zmlq4-unsplash-min.jpg" class="image" alt="Tegar Surya">
+            <!--<img loading="lazy" src="images/landscape/navi-photography-4w0EleANuUI-unsplash-min.jpg" class="image" alt="Navi-Photography">
+            <img loading="lazy" src="images/potrait/kyle-cut-media-fEU3yA0aTHc-unsplash.jpg" class="image" alt="Kyle">-->
+        </div>
+        <div class="column">
+            <img loading="lazy" src="images/potrait/zoe-1vG_fi5JL4E-unsplash-min.jpg" class="image" alt="Zoe">
+            <img loading="lazy" src="images/landscape/stephen-leonardi-Yhdabz-Q1PY-unsplash-min.jpg" class="image" alt="Stephen Leonardi">
+            <img loading="lazy" src="images/potrait/michael-shannon-ZvdDmDZSv7s-unsplash-min.jpg" class="image" alt="Michel Shanon">
+            <img loading="lazy" src="images/landscape/sam-moqadam-3kBwpY9jG_E-unsplash-min.jpg" class="image" alt="Sam Moqadam">
+            <!--<img loading="lazy" src="images/potrait/todd-trapani-30JlzcKwnVo-unsplash.jpg" class="image" alt="Todd Trapani">
+            <img loading="lazy" src="images/landscape/zongnan-bao-jI_Cvah8vdY-unsplash-min.jpg" class="image" alt="Zongan Bao">-->
+        </div>
+    </div>
+    </div>
+    <!--The Modal Image container-->
+    <div class="modal" id="modal-container">
+        <!--close btn-->
+        <span class="close-btn">&times;</span>
+        <!--modal- content (Full screen Image)-->
+        <img class="modal-content" id="modal-image">
+        <!--caption  text (alt text)-->
+        <div class="content-caption"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
